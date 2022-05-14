@@ -1,0 +1,32 @@
+ul{
+  list-style-type: none !important;
+  padding-left: 0px;
+  margin: 20px;
+  background: white;
+}
+
+li{
+  background: rgb(245, 249, 250);
+  margin-top: 2px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+}
+
+li .numb{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: rgb(48, 154, 225);
+  color: white;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+li span{
+  font-size: 18px;
+  
+}
